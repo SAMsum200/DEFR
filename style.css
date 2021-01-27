@@ -1,0 +1,157 @@
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    background: url(images/bg-header-desktop.png) no-repeat;
+    color: hsl(210, 10%, 33%);
+    margin: 0;
+}
+*:focus{
+    outline: none;
+}
+#logo{
+    display: block;
+    margin: 8rem auto 0;
+}
+#txt, #txt1{
+    width: 44%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+#btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+}
+button{
+    cursor: pointer;
+    margin: 0.5rem;
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 50px;
+    color: white;
+
+}
+#ios{
+    background: hsl(171, 66%, 44%);
+}
+#mac{
+    background: hsl(233, 100%, 69%);
+}
+.box{
+    margin: 5rem auto;
+    display: flex;
+}
+#st{
+    width: 25%;
+    margin: 5rem;
+}
+#txt1{
+    margin: 6rem auto;
+}
+#img{
+    display: block;
+    margin: 2rem auto;
+}
+#elements{
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+#QS{
+    width: 26%;
+    text-align: center;
+}
+#company{
+    display: flex;
+    justify-content: space-between;
+    margin: 9rem auto;
+    width: 80%;
+}
+footer{
+    background: hsla(202, 11%, 66%, 0.342);
+    padding-top: 3rem;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+.Q5{
+    margin-left: 14rem;
+}
+.Q5 img{
+    margin: 0.7rem;
+}
+.Q5 img:hover{
+    fill: hsl(171, 66%, 44%);
+}
+@media  only screen and (max-width:375px){
+    body{
+        background: url(images/bg-header-mobile.png) no-repeat;
+    }
+    #txt{
+        width: 90%;
+    }
+    #btns{
+        display: block;
+    }
+    button{
+        width: 88%;
+    }
+    .box{
+        display: block;
+    }
+    .box img{
+        width:89%;
+        height: 89%;
+        display: block;
+        margin: 0   auto;
+    }
+    #st{
+        width: 89%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #txt1{
+        width: 89%;
+    }
+    #img{
+        width: 89%;
+        height: 89%;
+    }
+    #elements{
+        display: block;
+        margin: 0 auto;
+    }
+    #QS{
+        width: 89%;
+    }
+    #company{
+        display: block;
+        margin: 0 auto;
+    }
+    #company img{
+        margin: 2rem;
+        width: 6em;
+    }
+    footer{
+        height: auto;
+        margin: 0 ;
+        padding-top: 4rem;
+    }
+    .container{
+        display: block;
+    }
+    .Q5{
+        display: block;
+        margin: 0 auto;
+    }
+    .container{
+        margin: 0 auto;
+    }
+}
